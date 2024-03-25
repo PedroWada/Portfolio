@@ -3,7 +3,7 @@ export default function MoreAbout({boolChanger}){
     return(
         <div className="restAbout">
 
-            <div className="first_info flex">
+            <div className="first_info flex secao">
                 <div>
                     <h2>My history</h2>
                     <div>
@@ -17,7 +17,7 @@ export default function MoreAbout({boolChanger}){
                     <img src={image} alt='A'/>
                 </div>
             </div>
-            <div className="second_info flex">
+            <div className="second_info flex secao">
                 <div>
                  <img src={image} alt='A'/>
                 </div>
@@ -29,7 +29,7 @@ export default function MoreAbout({boolChanger}){
                 </div>
             </div>
             
-            <div className="third_info">
+            <div className="third_info secao">
                 <div>
                     <h1>Curiosit</h1>
                 </div>

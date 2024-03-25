@@ -1,29 +1,36 @@
 export default function Contact() {
     return(
-        <section>
-            <div>
+        <section className="section_contact">
+            <div className="div_TitleContact">
                 <h1>
                     Contact
                 </h1>
             </div>
-            <div className="div_email">
-                <div>
-                    Send me an email
-                </div>
-                <div>
-                    <input></input>
-                    <input></input>
-                    <input></input>
-                </div>
-            </div>  
             <div className="social_medias">
+                <h2>
+                    Social medias
+                </h2>
                 <div>
-                    <p>A</p>
-                    <p>B</p>
-                    <p>C</p>
-                    <p>D</p>
+                    <p>LIn</p>
+                    <p>GitH</p>
+                    <p>Inst</p>
                 </div>
             </div>
+            <div className="div_email">
+                <h2>
+                    Or send me an email
+                </h2>
+                <div className="div_emailInputs">
+                    <div className="firstDivInput">
+                        <input placeholder="Name"/>
+                        <input placeholder="Email"/>
+                    </div>
+                    <div className="secondDivInput">
+                        <textarea placeholder="Text"/>
+                    </div>
+                    
+                </div>
+            </div>   
         </section>
     )
 }

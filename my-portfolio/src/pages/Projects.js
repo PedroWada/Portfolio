@@ -5,13 +5,13 @@ export default function Projects(){
                 <h1>Projects</h1>
             </div>
             <div>
-                <div>
+                <div className="projects">
 
                 </div>
-                <div>
+                <div className="projects">
 
                 </div>
-                <div>
+                <div className="projects">
                     
                 </div>
             </div>

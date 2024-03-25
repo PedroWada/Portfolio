@@ -56,11 +56,65 @@ section{
 .firstphoto{
   width: 250px;
 }
+.secao{
+  margin: 50px 0;
+}
+.projects{
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+}
+
+/*Contact*/
+.section_contact{
+  margin-bottom: 50px;
+}
+.div_TitleContact{
+  padding: 0 20px;
+  text-align: end;
+}
+.social_medias{
+  margin:  50px 0;
+}
+.social_medias div{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 5%;
+}
+.div_emailInputs{
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div_emailInputs input, textarea{
+  width: 100%;
+  font-size: 1em;
+  padding: 12px 16px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.firstDivInput{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 150px;
+  width: 40%;
+}
+.secondDivInput{
+  width: 45%;
+}
+.secondDivInput textarea{
+  width: 100%;
+  height: 150px;
+  resize: none;
+}
 
 
 /*Footer*/
 footer{
-  background-color: #fff;
+  box-sizing: border-box;
 }
 footer div{
   display: flex;

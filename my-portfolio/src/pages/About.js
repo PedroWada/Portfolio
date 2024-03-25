@@ -8,12 +8,12 @@ export default function About() {
             <div>
                 <h2>About</h2>
             </div>
-           <div className="flex">
+           <div className="flex secao">
                 <div>
                     <img src={Selfie} alt='my selfie smiling'/>
                 </div>
                 <div>
-                Lorem Ipsum is simply dummy text of the printing and 
+                Lorem Ipsum is simply dummy text of the printing and 
                 typesetting industry. Lorem Ipsum has been the industry's 
                 standard dummy text ever since the 1500s, when an unknown printer
                  took a galley of type and scrambled.dadawdawdwadawd
@@ -22,7 +22,7 @@ export default function About() {
            {bool ? <MoreAbout boolChanger={setBool}/>
            : 
            <button onClick={()=> setBool(true)}>
-            Show more 
+            Show more
             </button>}
            
 
